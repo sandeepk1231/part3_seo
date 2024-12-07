@@ -1,0 +1,29 @@
+#products {
+  background-color: #fffaf0;
+}
+
+.card-title {
+  font-size: 1.25rem;
+}
+
+.btn-warning {
+  background-color: #ff7c00;
+  border: none;
+  box-shadow: 0 4px 6px rgba(255, 124, 0, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-warning:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(255, 124, 0, 0.5);
+}
+
+.text-warning {
+  color: #ff7c00 !important;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
